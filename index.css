@@ -1,3 +1,12 @@
 body{
     background: #A2A3A5;
 }
+/* landing page */
+/* size image to full scale, and make slightly darker*/
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: ;/*give the heading an opaque white/cream color*/
+    text-align: center;
+}
+
+/* why page */
