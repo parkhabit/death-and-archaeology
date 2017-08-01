@@ -23,28 +23,6 @@ document.querySelector('.titlePage').addEventListener('click', function() {
 
 
 
-/* PAGE 2 TYPES OF BEHAVIOUR*/
-var lis = document.querySelectorAll(".responsive-img");
-
-for(var i=0; i<lis.length; i++){
-  lis[i].addEventListener("mouseover", function(){
-    this.style.opacity="0";
-  });
-}
-for(var i=0; i<lis.length; i++){
-  lis[i].addEventListener("mouseout", function(){
-    this.style.opacity="1";
-  });
-}
-
-
-
-/* END OF PAGE 2 TYPES OF BEHAVIOUR*/
-
-
-
-
-
 /*PAGE 4*/
 var bord = document.querySelectorAll(".section");
 for(var i=0; i<bord.length; i++){
