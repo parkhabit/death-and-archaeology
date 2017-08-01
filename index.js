@@ -21,16 +21,6 @@ document.querySelector('.titlePage').addEventListener('click', function() {
 
 
 
-/* PAGE 1 ABOUT*/
-document.querySelector('.navButton').addEventListener('mouseover', function(){
-  this.style.opacity="0.1";
-});
-document.querySelector('.navButton').addEventListener('mouseout', function(){
-  this.style.opacity='1';
-});
-/* END OF PAGE 1 ABOUT*/
-
-
 
 
 /* PAGE 2 TYPES OF BEHAVIOUR*/
@@ -46,6 +36,7 @@ for(var i=0; i<lis.length; i++){
     this.style.opacity="1";
   });
 }
+
 
 
 /* END OF PAGE 2 TYPES OF BEHAVIOUR*/
