@@ -1,4 +1,4 @@
-
+<script>
 $(document).ready(function() {
 /* NAVIGATION*/
 
@@ -53,3 +53,4 @@ function nextSlide() {
     slides[currentSlide].className = 'slide showing';
 }
   });
+</script>
