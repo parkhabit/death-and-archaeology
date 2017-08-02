@@ -1,6 +1,4 @@
 
-
-$document.ready(function(){
 /* NAVIGATION*/
 
 /* Open when someone clicks*/
@@ -53,4 +51,4 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
 }
-});
+
