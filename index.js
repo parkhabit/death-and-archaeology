@@ -1,6 +1,9 @@
+
+
+$document.ready(function(){
 /* NAVIGATION*/
 
-/* Open when someone clicks on the span element */
+/* Open when someone clicks*/
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
 }
@@ -50,3 +53,4 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
 }
+});
