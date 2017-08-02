@@ -3,72 +3,59 @@
     <head>
         <title>Mortuary Behaviour</title>
         <link rel="stylesheet" href="index.css">
-        <script type="text/javascript" src="index.js"></script>
+        <script src="index.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display|Roboto+Mono" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href"css/normalize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
     </head>
     
     <body>
+        <!-- NAVIGATION -->
+        <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#about">About</a>
+            <a href="#behaviour">Types of Behaviour</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#animals">Animals in comparison</a>
+            <a href="#implications">Implications</a>
+          </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+
+          <div class="navOpen" onclick="openNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        <!-- END OF NAVIGATION -->
+
         
-
-<!-- NAVIGATION -->
-<!-- The overlay -->
-<div id="myNav" class="overlay">
-
-  <!-- Button to close the overlay navigation -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <!-- Overlay content -->
-  <div class="overlay-content">
-    <a href="#about">About</a>
-    <a href="#behaviour">Types of Behaviour</a>
-    <a href="#timeline">Timeline</a>
-    <a href="#animals">Animals in comparison</a>
-    <a href="#implications">Implications</a>
-  </div>
-
-</div>
-
-<!-- Use any element to open/show the overlay navigation menu -->
-
-  <div class="navOpen" onclick="openNav()">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-
-  
-    
-  
-<!-- END OF NAVIGATION -->
-  
-   <div class="titlePage">
-     <h1 class="mainTitle">I bury</br>therefore</br>I'm man?</h1>
-  </div>
+        <!--Title Page-->
+        <div class="titlePage">
+            <h1 class="mainTitle">I bury</br>therefore</br>I'm man?</h1>
+        </div>
   
 <!-- PAGE 1 ABOUT -->
-<!--
-1.Align the GD sckull
-2.Add link to button, make sure it doesn't overlap
-3.Add top butt/& link-->
-
- 
 <div class="about" id="about">
   <div class="aboutText">
     <div class="col-1">
-    <h2 class="sliding-underline">Why?</h2>
-      <div class="sliding-underline"></div>
-    <p>This is an educational website which explains the history of human mortuary behaviour and offers an explanation as to why it might have occurred in human history.</p>
-      <div><img src="http://res.cloudinary.com/du4fuafab/image/upload/v1499164965/skull_rtvwmm.gif" alt="skull" class="skull"/></div>
-    </div>
-    
-    
-    <div class="col-2">        
-    <p>I decided to create this website as a shortened explanation of my masters thesis. I started asking questions about human behaviour as a spring board from my interest in religion. I wanted to find a scientific explanation as to why religion may have come about in it's first instance, at the birthplace of human evolution. Studying archaeology helped me toward this goal, and evolutionary psychology even further. Finding religion in the archaeological record is notoriously difficult, finding the physical remains of a tangible concept. Instead I started to look at the question from a different angle. What can the bones and remains of ancient species of humans tell us about why certains behaviours became prominent within our species. By looking at mortuary behaviour (any interactions humans have with dead bodies), we can infer from a evolutioanry perspective why these practices may have come about.
-      </p></div>
+       <h2 class="sliding-underline">Why?</h2>
+        <div class="sliding-underline"></div>
+            <p>This is an educational website which explains the history of human mortuary behaviour and offers an explanation as to why it might have occurred in human history.</p>
+            <div><img src="http://res.cloudinary.com/du4fuafab/image/upload/v1499164965/skull_rtvwmm.gif" alt="skull" class="skull"/></div>
+            </div>
 
-</div> 
+        <div class="col-2">        
+            <p>I decided to create this website as a shortened explanation of my masters thesis. I started asking questions about human behaviour as a spring board from my interest in religion. I wanted to find a scientific explanation as to why religion may have come about in it's first instance, at the birthplace of human evolution. Studying archaeology helped me toward this goal, and evolutionary psychology even further. Finding religion in the archaeological record is notoriously difficult, finding the physical remains of a tangible concept. Instead I started to look at the question from a different angle. What can the bones and remains of ancient species of humans tell us about why certains behaviours became prominent within our species. By looking at mortuary behaviour (any interactions humans have with dead bodies), we can infer from a evolutioanry perspective why these practices may have come about.
+            </p>
+        </div>
+
+     </div> 
 
 <!-- END OF PAGE 1 ABOUT -->
 
@@ -79,8 +66,8 @@
 <div class="grid">
   <li class="cell">
     <h4 class="type">Structured Abandonment</h4>
-    <p>The deliberate placement of a corpse at a certain point in the landscape. This could be for simple reasons such as avoiding predators.</p>
-    <img src="http://res.cloudinary.com/du4fuafab/image/upload/v1499163571/House_rvs8hb.jpg" alt="" class="responsive-img"/>
+        <p>The deliberate placement of a corpse at a certain point in the landscape. This could be for simple reasons such as avoiding predators.</p>
+        <img src="http://res.cloudinary.com/du4fuafab/image/upload/v1499163571/House_rvs8hb.jpg" alt="" class="responsive-img"/>
   </li>
   
 <li class="cell">
@@ -358,9 +345,9 @@
 <div class="implications1" id="implications">
   <ul>
     <li><em>Larger Brain Size-</em></br>Humans have an incredibly large brain size when looked at in comparison to their body size.</li>
-<li><em>Larger Group Size-</em></br>With primates there is a quantatative relationship between brain size and social group size. This is called the  social brain hypothesis. In order to maintain a large cohesive group size, cognitive demands exist.</li>
-<li><em>More Socialising-</em></br>With larger group sizes primates need to spend more time socialising. If we follow the pattern of group size to time spent socialising, humans would have to spend over 40% of their time socialising. This isn't feasible.</li>
-<li><em>Enhanced Types of Socialising-</em></br>Instead of spending more time socialising humans found more productive ways to socialise. New types of socialising let humans bond with more than one member of their group at a time. Instead of one-on-one grooming, humans invented dance, song, and rituals. One theory is that mortuary behaviour is part of an enhanced way to socialise.</li>
+    <li><em>Larger Group Size-</em></br>With primates there is a quantatative relationship between brain size and social group size. This is called the  social brain hypothesis. In order to maintain a large cohesive group size, cognitive demands exist.</li>
+    <li><em>More Socialising-</em></br>With larger group sizes primates need to spend more time socialising. If we follow the pattern of group size to time spent socialising, humans would have to spend over 40% of their time socialising. This isn't feasible.</li>
+    <li><em>Enhanced Types of Socialising-</em></br>Instead of spending more time socialising humans found more productive ways to socialise. New types of socialising let humans bond with more than one member of their group at a time. Instead of one-on-one grooming, humans invented dance, song, and rituals. One theory is that mortuary behaviour is part of an enhanced way to socialise.</li>
   </ul>
 </div>
 
@@ -368,9 +355,9 @@
     <h3>Implications</h3>
     <div class="thoughts">
       <div class="col1">
-    <p>The implications of studying human behaviour surrounding death are quite extensive. The ability for practices surrounding death (like burial) is not an adaptation that can be linked only to the human (homo sapien) mind. Complexity of behaviour surrounding burial has grown over time and can be linked with the idea of the social brain hypothesis. The social brain hypothesis states that there is a correlation between brain size and grouping size in primates. These groups are not only larger but are also more socially complex. </p></div>
-    <div class="col2"><p>Larger group size means more time needs to be spent socialising, if humans socialised in the same way as apes they would need to spend over 40% of their time doing so. This is impractical. Instead we see humans, as their group sizes grow, socialising in different ways. Growing complexity in mortuary behaviour can be seen as part of a growing complexity in social behaviour.</p></div>
-</div>
+        <p>The implications of studying human behaviour surrounding death are quite extensive. The ability for practices surrounding death (like burial) is not an adaptation that can be linked only to the human (homo sapien) mind. Complexity of behaviour surrounding burial has grown over time and can be linked with the idea of the social brain hypothesis. The social brain hypothesis states that there is a correlation between brain size and grouping size in primates. These groups are not only larger but are also more socially complex. </p></div>
+        <div class="col2"><p>Larger group size means more time needs to be spent socialising, if humans socialised in the same way as apes they would need to spend over 40% of their time doing so. This is impractical. Instead we see humans, as their group sizes grow, socialising in different ways. Growing complexity in mortuary behaviour can be seen as part of a growing complexity in social behaviour.</p></div>
+    </div>
 </section>
 
 
